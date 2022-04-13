@@ -1,11 +1,12 @@
 const express = require("express");
+const cors = require("cors");
 const port = 3000;
 const app = express();
 
 //Configurando nossa aplicaçao para trabalhar com json
 app.use(express.json());
 
-// app.use(cors());
+app.use(cors());
 
 // Definindo dados para usar na aplicacao
 
