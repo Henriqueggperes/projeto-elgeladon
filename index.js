@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
   res.send("Salve porra");
 });
 
-app.get("/paletas/find-paletas/:id", (req, res) => {
+app.get("/paletas/-paletas/:id", (req, res) => {
   const idParam = req.params.id;
   const chosenPaleta = paletas.find((paleta) => paleta.id == idParam);
   res.send(chosenPaleta);
