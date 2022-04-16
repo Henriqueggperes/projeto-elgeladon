@@ -16,7 +16,7 @@ const characters = [
     personagem: "Jotaro Kujo",
     stand: "Star Platinum",
     standstatus: "BB",
-    habilidades: "Parara o tempo",
+    habilidades: "Parar o tempo",
     foto: "https://mugenarchive.com/forums/576546d5bf292b9424d94fde84f7b5a3/images/jotaro_47522_thumb.gif",
   },
   {
@@ -30,7 +30,7 @@ const characters = [
 ];
 
 app.get("/personagens", (req, res) => {
-
+ res.send(characters);
 });
 
 app.get("/personagem/find-personagem/:id", (req, res) => {
