@@ -17,7 +17,7 @@ const paletas = [
     stand: "Star Platinum",
     standstatus: "",
     habilidades: "Parara o tempo",
-    foto: "https://www.spriters-resource.com/resources/sheet_icons/78/81349.png",
+    foto: "https://mugenarchive.com/forums/576546d5bf292b9424d94fde84f7b5a3/images/jotaro_47522_thumb.gif",
   },
   {
     id: 1,
@@ -25,12 +25,11 @@ const paletas = [
     stand: "The World",
     standstatus: "",
     habilidades: "Parar o tempo (WRYYY)",
-    foto: "https://storage.googleapis.com/domain-images/60b1f285-d77c-444a-b734-1bc1efd2c472/products/gallery_bd17d9a3-cd93-44a9-9b44-f017a1c7a329.jpg",
+    foto: "https://image.myanimelist.net/ui/HlQ6Ym2sGbLFJFCFIz0ba-MuuU8Ua6BvgxzQMx8j6l2CuPleFNp8y-YhmDGoXkzU-uYo0Sc7wv5IKkwcVce7oLUhmUcifn8wfJZlPUwTf_IjffB0JfIPJKNl-IqIUnZWg8WyYxioYgbadySMT3keEXOCVG2ALsTueKfmkx7vh3E",
   },
 ];
 
-app.get("/", (req, res) => {
-
+app.get("/personagens", (req, res) => {
 });
 
 app.get("/personagem/find-personagem/:id", (req, res) => {
