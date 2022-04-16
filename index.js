@@ -10,31 +10,32 @@ app.use(cors());
 
 // Definindo dados para usar na aplicacao
 
-const paletas = [
+const characters = [
   {
     id: 1,
     personagem: "Jotaro Kujo",
     stand: "Star Platinum",
-    standstatus: "",
+    standstatus: "BB",
     habilidades: "Parara o tempo",
     foto: "https://mugenarchive.com/forums/576546d5bf292b9424d94fde84f7b5a3/images/jotaro_47522_thumb.gif",
   },
   {
-    id: 1,
+    id: 2,
     personagem: "Dio",
     stand: "The World",
-    standstatus: "",
+    standstatus: "CC",
     habilidades: "Parar o tempo (WRYYY)",
     foto: "https://image.myanimelist.net/ui/HlQ6Ym2sGbLFJFCFIz0ba-MuuU8Ua6BvgxzQMx8j6l2CuPleFNp8y-YhmDGoXkzU-uYo0Sc7wv5IKkwcVce7oLUhmUcifn8wfJZlPUwTf_IjffB0JfIPJKNl-IqIUnZWg8WyYxioYgbadySMT3keEXOCVG2ALsTueKfmkx7vh3E",
   },
 ];
 
 app.get("/personagens", (req, res) => {
+
 });
 
 app.get("/personagem/find-personagem/:id", (req, res) => {
   const idParam = req.params.id;
-  const chosenCharacter = paletas.find((paleta) => paleta.id == idParam);
+  const chosenCharacter = peso.find((character) => character.id == idParam);
   res.send(chosenCharacter);
 });
 
