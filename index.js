@@ -17,7 +17,7 @@ const characters = [
     stand: "Star Platinum",
     standstatus: "BB",
     habilidades: "Parar o tempo",
-    foto: "https://mugenarchive.com/forums/576546d5bf292b9424d94fde84f7b5a3/images/jotaro_47522_thumb.gif",
+    foto: "https://66.media.tumblr.com/cfa20f9738ea45c49300864a485c4a06/3307238277563ca1-ad/s250x400/ed458ec2f4efd1e29938958223eba77a0ebe488b.gifv",
     descricao: "Jotaro Kujo, um dos usuários de stand mais fortes dentro do universo de Jojo's Bizarre Adventures. Utilizando do poder de seu Stand Star Platinum, pode parar o tempo com uma duração definida (Sendo a mais longa a duração de 5 segundos). "
   },
   {
