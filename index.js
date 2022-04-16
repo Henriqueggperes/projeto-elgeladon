@@ -13,28 +13,30 @@ app.use(cors());
 const paletas = [
   {
     id: 1,
-    sabor: "Açai com Leite Condensado",
-    descricao: "Açai com Leite Condensado",
-    foto: "https://storage.googleapis.com/domain-images/60b1f285-d77c-444a-b734-1bc1efd2c472/products/gallery_bd17d9a3-cd93-44a9-9b44-f017a1c7a329.jpg",
-    preco: 10.0,
+    personagem: "Jotaro Kujo",
+    stand: "Star Platinum",
+    standstatus: "",
+    habilidades: "Parara o tempo",
+    foto: "https://www.spriters-resource.com/resources/sheet_icons/78/81349.png",
   },
   {
-    id: 2,
-    sabor: "Saco de macho",
-    descricao: "Haha, eh mole?",
+    id: 1,
+    personagem: "Dio",
+    stand: "The World",
+    standstatus: "",
+    habilidades: "Parar o tempo (WRYYY)",
     foto: "https://storage.googleapis.com/domain-images/60b1f285-d77c-444a-b734-1bc1efd2c472/products/gallery_bd17d9a3-cd93-44a9-9b44-f017a1c7a329.jpg",
-    preco: 10.0,
   },
 ];
 
 app.get("/", (req, res) => {
-  res.send("Salve porra");
+
 });
 
-app.get("/paletas/-paletas/:id", (req, res) => {
+app.get("/personagem/find-personagem/:id", (req, res) => {
   const idParam = req.params.id;
-  const chosenPaleta = paletas.find((paleta) => paleta.id == idParam);
-  res.send(chosenPaleta);
+  const chosenCharacter = paletas.find((paleta) => paleta.id == idParam);
+  res.send(chosenCharacter);
 });
 
 app.listen(port, () => {
