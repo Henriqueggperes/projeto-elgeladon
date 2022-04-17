@@ -35,7 +35,7 @@ app.get("/personagens", (req, res) => {
  res.send(characters);
 });
 
-app.get("/personagem/find-personagem/:id", (req, res) => {
+app.get("/find-personagem/:id", (req, res) => {
   const idParam = req.params.id;
   const chosenCharacter = peso.find((character) => character.id == idParam);
   res.send(chosenCharacter);
