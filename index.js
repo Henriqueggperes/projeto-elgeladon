@@ -26,7 +26,7 @@ const characters = [
     stand: "The World",
     standstatus: "CC",
     habilidades: "Parar o tempo (WRYYY)",
-    foto: "https://image.myanimelist.net/ui/HlQ6Ym2sGbLFJFCFIz0ba-MuuU8Ua6BvgxzQMx8j6l2CuPleFNp8y-YhmDGoXkzU-uYo0Sc7wv5IKkwcVce7oLUhmUcifn8wfJZlPUwTf_IjffB0JfIPJKNl-IqIUnZWg8WyYxioYgbadySMT3keEXOCVG2ALsTueKfmkx7vh3E",
+    foto: "https://64.media.tumblr.com/1deb9b74b6660569e628eabd3df74917/tumblr_o3f40io5ay1sh11j9o1_500.gifv",
     descricao:"Dio Brando, assim como o inimigo que o derrotou, era extremamente poderoso. Tal poder não vinha só de seu Stand, mas também de suas capacidades sobrehumanas que lhes foram presenteadas através da máscara de pedra, que lhe transformou em um vampiro."
   },
 ];
